@@ -1,10 +1,8 @@
 
 # Hi there! :wave: I'm Arnau!
 
-### :mortar_board: Student of Higher Vocational Degree (Grado Superior) in Multiplatform Applications Development at Institut Tecnològic de Barcelona
+### Student of Higher Vocational Degree (Grado Superior) in Multiplatform Applications Development at Institut Tecnològic de Barcelona
 A learning developer based in Barcelona :round_pushpin:
-
----
 
 ## :rocket: About Me
 
@@ -29,8 +27,25 @@ A learning developer based in Barcelona :round_pushpin:
   - **Game AI:** Behavior trees and pathfinding
   - **Multiplayer & Networking:** Client-server architecture and sockets
 </details>
-  
-:speech_balloon: Feel free to get in touch!
+
+---
+## :mortar_board: Education
+
+- **Higher Vocational Degree in Multiplatform Applications Development (DAM)** 
+  - *Institut Tecnològic de Barcelona* | *2026 - Present*
+  - Specialization in Game Development & C# Architecture.
+
+- **Intermediate Vocational Degree in Microcomputer Systems and Networks (SMR)**
+  - *Institut Badalona VII* | *2026*
+  - Systems administration, hardware, networking fundamentals, and security.
+
+---
+
+## :scroll: Certifications & Independent Learning
+
+- **Complete Game Development Course** | *Udemy* (53 hrs)
+- Intensive training focused on C#, game architecture, 2D/3D physics, AI, and game performance optimization.
+
 
 ---
 
@@ -40,3 +55,7 @@ A learning developer based in Barcelona :round_pushpin:
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+---
+
+:speech_balloon: Feel free to get in touch!
