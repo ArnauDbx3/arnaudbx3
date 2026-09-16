@@ -1,17 +1,17 @@
 
-# Hi there! 👋 I'm Arnau!
+# Hi there! :wave: I'm Arnau!
 
-### 🎓 Student of Higher Vocational Degree (Grado Superior) in Multiplatform Applications Development at Institut Tecnològic de Barcelona
+### :mortar_board: Student of Higher Vocational Degree (Grado Superior) in Multiplatform Applications Development at Institut Tecnològic de Barcelona
 A learning developer based in Barcelona :round_pushpin:
 
 ---
 
-## 🚀 About Me
+## :rocket: About Me
 
-🌱 I’m currently learning... :arrow_double_down:
+:seedling: I’m currently learning... :arrow_double_down:
 
 <details>
-  <summary><b>💻 Multiplatform Development (DAM)</b></summary>
+  <summary><b> :computer: Multiplatform Development (DAM)</b></summary>
   <br>
 
   - **Object-Oriented Programming (OOP):** Advanced C# & Java
@@ -21,7 +21,7 @@ A learning developer based in Barcelona :round_pushpin:
 </details>
 
 <details>
-  <summary><b>🎮 Game Development Specialization</b></summary>
+  <summary><b> :video_game: Game Development Specialization</b></summary>
   <br>
 
   - **Game Logic & Mechanics:** C# scripting and gameplay systems
@@ -30,11 +30,11 @@ A learning developer based in Barcelona :round_pushpin:
   - **Multiplayer & Networking:** Client-server architecture and sockets
 </details>
   
-💬 Feel free to get in touch!
+:speech_balloon: Feel free to get in touch!
 
 ---
 
-## 🛠️ Languages
+## :hammer_and_wrench: Languages
 
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
