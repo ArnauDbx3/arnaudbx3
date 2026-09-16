@@ -1,16 +1,42 @@
-## Hi there 👋
 
-<!--
-**ArnauDbx3/arnaudbx3** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hi there! 👋 I'm Arnau!
 
-Here are some ideas to get you started:
+### 🎓 Student of Higher Vocational Degree (Grado Superior) in Multiplatform Applications Development at Institut Tecnològic de Barcelona
+A learning developer based in Barcelona :round_pushpin:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🚀 About Me
+
+🌱 I’m currently learning... :arrow_double_down:
+
+<details>
+  <summary><b>💻 Multiplatform Development (DAM)</b></summary>
+  <br>
+
+  - **Object-Oriented Programming (OOP):** Advanced C# & Java
+  - **User Interface (UI/UX) Design:** Desktop and mobile layouts
+  - **Database Systems:** SQL, ORM, and data access
+  - **Services & Processes:** Multithreading, APIs, and network protocols
+</details>
+
+<details>
+  <summary><b>🎮 Game Development Specialization</b></summary>
+  <br>
+
+  - **Game Logic & Mechanics:** C# scripting and gameplay systems
+  - **Game Physics & Mathematics:** Vector math, collisions, and rigidbodies
+  - **Game AI:** Behavior trees and pathfinding
+  - **Multiplayer & Networking:** Client-server architecture and sockets
+</details>
+  
+💬 Feel free to get in touch!
+
+---
+
+## 🛠️ Languages
+
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
