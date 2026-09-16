@@ -29,6 +29,7 @@ A learning developer based in Barcelona :round_pushpin:
 </details>
 
 ---
+
 ## :mortar_board: Education
 
 - **Higher Vocational Degree in Multiplatform Applications Development (DAM)** 
@@ -43,9 +44,9 @@ A learning developer based in Barcelona :round_pushpin:
 
 ## :scroll: Certifications & Independent Learning
 
-- **Complete Game Development Course** | *Udemy* (53 hrs)
-- Intensive training focused on C#, game architecture, 2D/3D physics, AI, and game performance optimization.
-
+- **Master in Game Programming with Unity & C#** | *Udemy / Frogames* (53 hrs) — [Verify Certificate](https://www.udemy.com/certificate/UC-51TW91LO)
+  - **Core Topics:** Advanced C# Scripting, Unity Engine Architecture, 2D/3D Game Physics, Game AI & Pathfinding (NavMesh).
+  - **Practical Experience:** Designed and built 5 complete game projects from scratch (including 2D Platformer, 3D FPS, Arcade, and RPG mechanics), focusing on gameplay logic, particle systems, UI integration, and performance profiling.
 
 ---
 
