@@ -38,7 +38,7 @@ A learning developer based in Barcelona :round_pushpin:
 
 - **Intermediate Vocational Degree in Microcomputer Systems and Networks (SMR)**
   - *Institut Badalona VII* | *2026*
-  - **Graduated with Honors** — **GPA: 9.62 / 10** 🏅
+  - **Graduated with Honors** — **GPA: 9.62 / 10** :medal_sports:
   - Systems administration, hardware, networking fundamentals, and security.
 
 ---
