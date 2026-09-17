@@ -2,8 +2,8 @@ name: Generate Tetris Graph
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs every midnight
-  workflow_dispatch: # Allows you to run it manually
+    - cron: "0 0 * * *" # Se ejecuta cada medianoche
+  workflow_dispatch: # Permite ejecutarlo manualmente
 
 jobs:
   generate:
@@ -17,14 +17,12 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           user: ${{ github.repository_owner }}
-          template: classic
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          config_timezone: UTC
-          # This converts the calendar grid into a Tetris-styled block render
-          filename: github-tetris.svg 
+          filename: github-tetris.svg
 
+      # Forzar que use Node20 si el runner se queja del entorno Docker
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
