@@ -61,3 +61,8 @@ A learning developer based in Barcelona :round_pushpin:
 ---
 
 :speech_balloon: I'm always open to chat/learn/collab. Feel free to get in touch! 
+
+---
+
+![My GitHub Tetris](https://githubusercontent.com<ArnauDbx3>/<ArnauDbx3>/main/github-tetris.svg)
+
