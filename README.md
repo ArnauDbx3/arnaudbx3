@@ -60,4 +60,4 @@ A learning developer based in Barcelona :round_pushpin:
 
 ---
 
-:speech_balloon: Feel free to get in touch!
+:speech_balloon: I'm always open to chat/learn/collab. Feel free to get in touch! 
