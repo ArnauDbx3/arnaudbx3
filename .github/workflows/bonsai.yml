@@ -1,4 +1,4 @@
-name: Generate Git Plant
+name: Generate Git Bonsai
 
 on:
   schedule:
@@ -15,15 +15,17 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Generate Plant Image
-        uses: joshuavial/git-plant@main
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          username: ${{ github.repository_owner }}
-          output_path: "bonsai.svg"
+          node-version: "20"
+
+      - name: Generate Bonsai
+        run: |
+          npx git-bonsai-generator --user ${{ github.repository_owner }} --output bonsai.svg || npx @octocat/bonsai --user ${{ github.repository_owner }} --output bonsai.svg
 
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update Git Plant"
+          commit_message: "Update Git Bonsai"
           file_pattern: "bonsai.svg"
