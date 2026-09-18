@@ -1,9 +1,9 @@
-name: Generate Bonsai Graph
+name: Generate Git Plant
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Se ejecuta cada medianoche
-  workflow_dispatch: # Permite ejecutarlo manualmente
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -15,14 +15,15 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Generate Bonsai Image
-        uses: egorf/git-bonsai@main
+      - name: Generate Plant Image
+        uses: joshuavial/git-plant@main
         with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           username: ${{ github.repository_owner }}
-          output: "bonsai.svg"
+          output_path: "bonsai.svg"
 
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update Git Bonsai"
+          commit_message: "Update Git Plant"
           file_pattern: "bonsai.svg"
