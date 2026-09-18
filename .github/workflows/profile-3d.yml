@@ -12,12 +12,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: yoshi38608/github-profile-3d-contrib@0.7.1
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Generate 3D Graph
+        uses: yoshi38608/github-profile-3d-contrib@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-      - uses: stefanzweifel/git-auto-commit-action@v5
+
+      - name: Commit and Push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update 3D graph"
           file_pattern: "profile-3d-contrib/*"
