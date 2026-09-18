@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate Tetris Animation
         uses: lowlighter/metrics@latest
@@ -25,10 +27,8 @@ jobs:
           plugin_isocalendar_duration: full-year
           filename: github-tetris.svg
 
-      - name: Commit and Push
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add github-tetris.svg
-          git commit -m "Update Tetris graph" || echo "No changes to commit"
-          git push
+      - name: Commit and Push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update Tetris graph"
+          file_pattern: "github-tetris.svg"
