@@ -64,5 +64,4 @@ A learning developer based in Barcelona :round_pushpin:
 
 ---
 
-![My GitHub Tetris](https://githubusercontent.com<ArnauDbx3>/<ArnauDbx3>/main/github-tetris.svg)
-
+![Tetris Graph](./github-tetris.svg)
